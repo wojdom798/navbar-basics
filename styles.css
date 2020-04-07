@@ -11,8 +11,9 @@ body {
 
 .navbar {
   width: 100%;
-  height: 75px;
+  height: 70px;
   background-color: #2525f3;
+  box-shadow: 0 1px 7px #6e6e6e;
 }
 .navbar .navbar-nav {
   display: flex;
@@ -23,7 +24,6 @@ body {
 .navbar .navbar-nav .nav-item {
   height: 100%;
   display: inline-block;
-  padding: 0 20px;
 }
 .navbar .navbar-nav .nav-item .nav-link {
   box-sizing: content-box;
@@ -32,9 +32,11 @@ body {
   align-items: center;
   text-decoration: none;
   color: #fff;
+  padding: 0 20px;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover {
   border-bottom: 2px solid #333;
+  background-color: #3d3df4;
 }
 
 /*# sourceMappingURL=styles.css.map */
