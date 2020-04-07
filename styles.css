@@ -23,7 +23,7 @@ body {
 .navbar .navbar-nav .nav-item {
   height: 100%;
   display: inline-block;
-  margin-right: 30px;
+  padding: 0 20px;
 }
 .navbar .navbar-nav .nav-item .nav-link {
   box-sizing: content-box;
